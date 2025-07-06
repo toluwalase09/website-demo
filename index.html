@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Toluwalase Adedotun – DevOps Engineer Portfolio showcasing DevOps skills, cloud architecture, CI/CD pipelines, Kubernetes, and more." />
+  <meta property="og:title" content="Toluwalase Adedotun | DevOps Engineer Portfolio" />
+  <meta property="og:description" content="Explore the DevOps journey of Toluwalase — cloud-native infrastructure, CI/CD, Kubernetes, automation, and beyond." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://toluwalase.addpotion.com" />
+  <title>Toluwalase Adedotun | DevOps Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+      transition: opacity 1s ease-in-out;
+    }
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 1rem; animation: fadeInDown 1s ease-in-out; }
+    header p { font-size: 1.2rem; color: #c9d1d9; animation: fadeIn 2s ease-in-out; }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    nav a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #1f6feb;
+    }
+    section {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #58a6ff;
+    }
+    ul { margin-left: 1.5rem; }
+    li { margin-bottom: 1rem; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #161b22;
+      color: #8b949e;
+    }
+    a { color: #58a6ff; }
+    .resume-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #58a6ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .resume-btn:hover {
+      background-color: #1f6feb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I’m Toluwalase 👋</h1>
+    <p>DevOps Engineer • Cloud Solutions Architect • Systems Thinker</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="resume-btn" href="https://drive.google.com/file/d/1oLa3cDR_IejI2PIVNUr6a4GHSNbyx7e4/view?usp=sharing" target="_blank">Download Resume</a>
+  </header>
+
+  <section id="about">
+    <h2>👋 Welcome</h2>
+    <p>I’m a passionate DevOps Engineer committed to helping teams ship software faster, more securely, and with confidence. DevOps, to me, is more than tooling — it’s about empowering people, automating processes, and designing infrastructure that scales gracefully.</p>
+    <p>When I’m not optimizing CI/CD or provisioning infrastructure with Terraform, I’m mentoring engineers, contributing to open source, or writing about the future of DevOps. My goal is to make engineering seamless, predictable, and delightful — one automated workflow at a time.</p>
+  </section>
+
+  <section id="projects">
+    <h2>🚀 Featured Projects</h2>
+    <ul>
+        <li><strong>CI/CD Pipeline Automation:</strong> Architected a fully automated CI/CD pipeline using GitHub Actions, Terraform, and Docker for multi-environment deployments, reducing lead time for changes by 70%.</li>
+
+        <li><strong>Scalable Kubernetes Platform (EKS):</strong> Designed a secure, production-ready Kubernetes cluster with ALB ingress, horizontal pod autoscaling, Helm deployments, and observability integrations on AWS EKS.</li>
+
+        <li><strong>PCI-DSS Compliance Enforcement Engine:</strong> Implemented serverless Lambda functions with CloudTrail triggers to auto-enforce resource tagging, encryption, and backups — ensuring continuous PCI-DSS compliance.</li>
+
+        <li><strong>Unified Observability Stack:</strong> Built an ELK + Prometheus + Grafana monitoring ecosystem with custom dashboards and real-time alerts integrated into Slack, improving MTTR by over 60%.</li>
+
+        <li><strong>Disaster Recovery Automation:</strong> Developed an automated cross-region backup and restore mechanism for RDS and S3 using Boto3, Lambda, and CloudWatch Events, achieving RPO < 15 minutes.</li>
+
+        <li><strong>Blue/Green Deployment with Zero Downtime:</strong> Engineered a blue/green deployment strategy using ECS, Route 53, and CodeDeploy, enabling near-zero downtime releases with automatic rollback support.</li>
+
+        <li><strong>Cost Optimization Dashboard:</strong> Deployed AWS Cost Explorer APIs with automated daily reporting and visualization via CloudWatch and SNS alerts, reducing monthly cloud spend by 20%.</li>
+
+        <li><strong>Infrastructure as Code Library:</strong> Built reusable Terraform and Helm modules for multi-account environments with strict compliance and GitOps integration, boosting engineering velocity across teams.</li>
+
+        <li><strong>API Gateway + Serverless Platform:</strong> Built secure RESTful microservices using AWS Lambda, API Gateway, Cognito, and DynamoDB — fully deployed with IaC and GitHub Actions workflows.</li>
+
+        <li><strong>Secrets Management Integration:</strong> Integrated HashiCorp Vault and AWS Secrets Manager with CI/CD pipelines to dynamically inject secrets into running workloads without exposure.</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>💼 Experience Snapshot</h2>
+    <ul>
+      <li><strong>Renmoney Microfinance Bank – Senior DevOps Engineer (2023–Present):</strong> Led a full DevOps transformation using Kubernetes, IaC, and observability tooling.</li>
+      <li><strong>Vontech Group – Cloud Solution Architect (2022–2023):</strong> Partnered with clients to design AWS architectures saving $100K+/yr via automation.</li>
+      <li><strong>MidaApp – DevOps Engineer (2022–2023):</strong> Migrated legacy systems to GKE, leveraging Helm and GitHub Actions for seamless deployments.</li>
+      <li><strong>Cloudboosta – Cloud DevOps Engineer (2021–2022):</strong> Developed internal DevOps playbooks and automated cloud compliance using Lambda.</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>🎓 Certifications</h2>
+    <ul>
+      <li>AWS Certified Solutions Architect – Associate (Amazon Web Services, 2025)</li>
+      <li>AWS Certified Cloud Practitioner (Amazon Web Services, 2025)</li>
+      <li>ALX-T Cloud DevOps Engineer (ALX, 2022)</li>
+      <li>CCNA – Cisco Certified Network Associate (Cisco, 2022)</li>
+      <li>Cloud DevOps Nanodegree (Udacity, 2022)</li>
+      <li>AWS Cloud Engineering Program (Azubi Africa, 2022)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Let’s Collaborate</h2>
+    <p>Need an engineer who understands cloud architecture, DevOps culture, and delivery at scale? Let’s talk. Whether you’re a founder, CTO, or team lead — I’m here to help you build systems that don’t just work, but evolve.</p>
+    <ul>
+      <li>Email: <a href="mailto:toluadedotun@gmail.com">toluadedotun@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/toluwalase09" target="_blank">github.com/toluwalase09</a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/toluwalase-adedotun-24bb9b199" target="_blank">linkedin.com/in/toluwalase-adedotun</a></li>
+      
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Toluwalase Adedotun — Building resilient systems that scale 🚀</p>
+  </footer>
+
+  <script>
+    // Fade-in body animation
+    document.body.style.opacity = 0;
+    window.addEventListener('load', () => {
+      document.body.style.opacity = 1;
+    });
+
+    // Scroll animation for sections
+    const revealSections = () => {
+      const sections = document.querySelectorAll('section');
+      const triggerBottom = window.innerHeight * 0.85;
+      sections.forEach(section => {
+        const boxTop = section.getBoundingClientRect().top;
+        if (boxTop < triggerBottom) {
+          section.classList.add('visible');
+        }
+      });
+    };
+    window.addEventListener('scroll', revealSections);
+    window.addEventListener('load', revealSections);
+  </script>
+</body>
+</html>
